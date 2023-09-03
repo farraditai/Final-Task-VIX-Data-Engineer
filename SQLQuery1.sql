@@ -58,4 +58,4 @@ BEGIN
 	WHERE d.StatusID = @StatusID
 END
 
-EXEC summary_order_status @StatusID = 1
+EXEC summary_order_status @StatusID = 2
